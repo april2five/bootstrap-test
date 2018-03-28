@@ -1,0 +1,43 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+p {
+  margin: 4rem 0rem;
+}
+
+.nav-pills li {
+  padding: 1rem;
+}
+
+.nav-pills li a {
+  padding: 0.5rem;
+  color: red;
+  background-color: pink;
+}
+
+.nav-pills li.active a {
+  padding: 0.5rem;
+  color: white;
+  background-color: lightcoral;
+}
+
+.nav-pills li.active a:hover {
+  padding: 0.5rem;
+  color: white;
+  background-color: red;
+}
+
+.btn-default {
+  background-color: #45ae33;
+  color: white;
+}
+
+.jumbotron{
+  text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTojjscqIYi6jMdut5DQknx6ad4uspt_Ii72uIKdWMrDoGq5UAjwQ");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
